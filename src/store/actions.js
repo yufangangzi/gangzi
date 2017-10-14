@@ -19,6 +19,9 @@ export default {
   },
   reduce({commit}){
     commit('reduce')
-
+  },
+  addZAN({commit}){
+    commit(types.ADD_ZAN)
   }
+
 };

@@ -23,5 +23,8 @@ export default {
   },
   [types.DELETE_PLAN] (state, idx) {
     state.list.splice(idx, 1);
+  },
+  [types.ADD_ZAN] (state){
+    state.zanNum++
   }
 };

@@ -8,7 +8,8 @@ Vue.use(Vuex);
 const state = {
   totalTime: 0,
   list: [],
-  age:45
+  age:45,
+  zanNum:0
 };
 const getters={
   addAge:(state)=>{
