@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="video">
-      <img src="../../assets/logo.png" alt="">
+       <videoTen></videoTen>
     </div>
     <div class="selfShow">
       <p>这里是我的自我介绍</p>
@@ -11,6 +11,7 @@
   </div>
 </template>
 <script type="text/ecmascript-6">
+  import videoTen from './video.vue'
   import store from '../../store'
   import {mapState,mapActions} from 'vuex'
   export default{
@@ -27,6 +28,9 @@
     methods:{
       ...mapActions(['addZAN'])
 
+    },
+    components:{
+      videoTen
     }
   }
 </script>
