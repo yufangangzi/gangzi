@@ -1,0 +1,77 @@
+.text-words {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.wrap {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.footer {
+  height: 104px;
+  width: 100%;
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #ddd!important;
+  padding-bottom: 20px;
+  background: #333;
+  font-size: 12px;
+}
+.footer a {
+  color: #ddd!important;
+  font-size: 12px;
+}
+.footer div {
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+}
+.footer p a {
+  margin: 0 10px;
+}
+.footer p.p1 {
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.footer .footer-copyright {
+  padding-top: 15px;
+  text-align: center;
+}
+.footer .footer-links {
+  text-align: center;
+  margin-top: 10px;
+}
+.footer .footer-links + p {
+  margin-top: 10px;
+}

@@ -1,15 +1,15 @@
 <template>
-  <div class="container">
+  <div class="">
     <headTab></headTab>
     <leftTab></leftTab>
-    <rightCon></rightCon>
+    <rightCon></rightCon>    
   </div>
 </template>
 
 <script>
 import headTab from './components/common/headTab.vue'
 import leftTab from './components/common/leftTab.vue'
-import rightCon from './components/common/rightCon.vue'
+import rightCon from './components/common/rightContain.vue'
 export default {
   name: 'app',
   data(){

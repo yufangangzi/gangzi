@@ -1,0 +1,104 @@
+.text-words {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.wrap {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.slide-show {
+  position: relative;
+  z-index: 29;
+  width: 1375px;
+  height: 100%;
+  margin: 15px auto!important;
+  overflow: hidden;
+}
+.slide-show ul {
+  position: absolute;
+}
+.slide-show ul li {
+  width: 1375px;
+  height: 105px;
+  overflow: hidden;
+}
+.slide-show ul .curr {
+  position: relative;
+}
+.slide-show ol {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  z-index: 9;
+}
+.slide-show ol li {
+  background: url(../../images/common/newicon.png?v=26);
+  background-repeat: no-repeat;
+  background-position: -130px -140px;
+  float: left;
+  margin-right: 8px;
+  width: 10px;
+  height: 10px;
+  color: #fff;
+  font-size: 0px;
+  cursor: pointer;
+}
+.slide-show ol li:hover {
+  background-color: #accbe8;
+}
+.slide-show ol li.cur {
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -145px -140px;
+  background-repeat: no-repeat;
+}
+.slide-show a.slide-close {
+  display: none;
+  width: 18px;
+  height: 18px;
+  font-size: 0px;
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: 0 -140px;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  z-index: 99;
+}
+.slide-show a.slide-close:hover {
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: 0 -140px;
+  background-repeat: no-repeat;
+}
+.b-white {
+  background: #fff;
+}

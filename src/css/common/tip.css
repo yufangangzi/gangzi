@@ -1,0 +1,336 @@
+.text-words {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.wrap {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.s-1 {
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.s-2 {
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.s-3 {
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.s-4 {
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+/* 
+HTML结构: 
+<div class="xytip">
+  <div class="xytip-arrow"></div>
+  <div class="xytip-inner">** htmltext **</div>
+</div>
+*/
+.xytip {
+  font-size: 10px;
+  position: absolute;
+  padding: 5px;
+  z-index: 100000;
+  transition: opacity 0.2s linear,visibility 1s,transform 0.1s linear;
+  transform: scale(0.5);
+  opacity: 0;
+}
+.xytip-inner {
+  background-color: #42375e;
+  color: #FFF;
+  max-width: 200px;
+  padding: 5px 8px 4px 8px;
+  text-align: center;
+}
+.xytip-inner {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.xytip-inner img {
+  vertical-align: middle;
+}
+/*.xytip-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+.xytip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 5px dashed #42375e;
+}
+/* 小三角设置 */
+.xytip-arrow-n {
+  border-bottom-color: #42375e;
+}
+.xytip-arrow-s {
+  border-top-color: #42375e;
+}
+.xytip-arrow-e {
+  border-left-color: #42375e;
+}
+.xytip-arrow-w {
+  border-right-color: #42375e;
+}
+.xytip-n .xytip-arrow {
+  top: 0px;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-nw .xytip-arrow {
+  top: 0;
+  left: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-ne .xytip-arrow {
+  top: 0;
+  right: 10px;
+  border-bottom-style: solid;
+  border-top: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-s .xytip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-sw .xytip-arrow {
+  bottom: 0;
+  left: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-se .xytip-arrow {
+  bottom: 0;
+  right: 10px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-e .xytip-arrow {
+  right: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-left-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+.xytip-w .xytip-arrow {
+  left: 0;
+  top: 50%;
+  margin-top: -5px;
+  border-right-style: solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+/*tips white*/
+/*<div class="ui-poptip">
+    
+    <span class="ui-poptip-arrow arrow-b">
+        <b></b><s></s>
+    </span>
+    <span class="ui-poptip-arrow arrow-t">
+        <b></b><s></s>
+    </span>
+    <span class="ui-poptip-arrow arrow-l">
+        <b></b><s></s>
+    </span>
+    <span class="ui-poptip-arrow arrow-r">
+        <b></b><s></s>
+    </span>
+    </div>*/
+.ui-poptip {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+}
+.ui-poptip .arrow-t {
+  left: 25px;
+  top: -8px;
+  zoom: 1;
+}
+.ui-poptip .arrow-t b {
+  border-bottom-color: #aaa;
+  border-width: 0 8px 8px;
+  left: 0;
+  top: -1px;
+}
+.ui-poptip .arrow-t s {
+  border-bottom-color: #fff;
+  border-width: 0 8px 8px;
+}
+.ui-poptip .arrow-b {
+  margin-left: 8px;
+  left: 46%;
+  bottom: 0;
+  zoom: 1;
+}
+.ui-poptip .arrow-b b {
+  border-top-color: #aaa;
+  border-width: 8px 8px 0;
+  left: 0;
+  top: 1px;
+}
+.ui-poptip .arrow-b s {
+  border-top-color: #fff;
+  border-width: 8px 8px 0;
+}
+.ui-poptip .arrow-l {
+  left: -8px;
+  top: 10px;
+  zoom: 1;
+}
+.ui-poptip .arrow-l b {
+  border-right-color: #aaa;
+  border-width: 8px 8px 8px 0;
+  left: -1px;
+  top: 0;
+}
+.ui-poptip .arrow-l s {
+  border-right-color: #fff;
+  border-width: 8px 8px 8px 0;
+}
+.ui-poptip .arrow-r {
+  right: 0;
+  top: 10px;
+  zoom: 1;
+}
+.ui-poptip .arrow-r b {
+  border-left-color: #aaa;
+  border-width: 8px 0 8px 8px;
+  left: 1px;
+  top: 0;
+}
+.ui-poptip .arrow-r s {
+  border-left-color: #fff;
+  border-width: 8px 0 8px 8px;
+}
+.ui-poptip-arrow {
+  position: absolute;
+  z-index: 10;
+}
+.ui-poptip-arrow b,
+.ui-poptip-arrow s {
+  position: absolute;
+  *zoom: 1;
+  width: 0;
+  height: 0;
+  border-color: rgba(255, 255, 255, 0);
+  border-color: transparent\0;
+  *border-color: transparent;
+  _border-color: tomato;
+  _filter: chroma(color=tomato);
+  border-style: solid;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+/*跟随鼠标提示层*/
+.ui-follow-tip {
+  position: absolute;
+  top: -10000px;
+  left: 0;
+  display: none;
+  padding: 5px 8px;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10001;
+  background: #b48745;
+  border-radius: 4px;
+}
+.xytip-sgrade {
+  font-size: inherit;
+}
+.xytip-sgrade .xytip-inner {
+  background: black;
+  padding: 0;
+}
+.xytip-sgrade .xytip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.xytip-gift {
+  padding: 0;
+  opacity: 1;
+}
+.xytip-gift .xytip-inner {
+  background: url(/images/room/diceng.png) repeat;
+  padding: 0;
+  max-width: none;
+}
+.xytip-gift .xytip-arrow {
+  bottom: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-top-style: solid;
+  border-bottom: none;
+  border-color: #42375e;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}

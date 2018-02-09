@@ -1,0 +1,609 @@
+.text-words {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.wrap {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.fairy-bean {
+  width: 824px;
+  height: 600px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -412px;
+  top: 50%;
+  margin-top: -300px;
+  z-index: 1011;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.fairy-bean .fairy-close {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -110px -40px;
+  cursor: pointer;
+  right: 10px;
+  top: 15px;
+  display: block;
+}
+.fairy-bean .fairy-title {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #f80;
+  color: #fff;
+  font-size: 22px;
+}
+.fairy-bean .fairy-data {
+  height: 275px;
+}
+.fairy-bean .fairy-data .fairyCon {
+  padding-top: 50px;
+  margin-left: 75px;
+  width: 630px;
+}
+.fairy-bean .fairy-data .fairyCon .balance {
+  color: #333;
+  font-size: 14px;
+}
+.fairy-bean .fairy-data .fairyCon .balance span {
+  font-size: 14px;
+  color: #f80;
+  font-weight: bold;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance {
+  width: 720px;
+  margin-top: 15px;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .p1 {
+  float: left;
+  width: 230px;
+  position: relative;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .p1 span {
+  font-size: 14px;
+  color: #f80;
+  font-weight: bold;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance p {
+  float: left;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance p.p2 {
+  width: 220px;
+  margin-left: 10px;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance p span {
+  font-size: 14px;
+  color: #f80;
+  font-weight: bold;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .helpdesc {
+  width: 560px;
+  height: 250px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  position: absolute;
+  left: -130px;
+  top: -263px;
+  z-index: 100;
+  display: none;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .helpdesc b.jt {
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: 0 -100px;
+  width: 20px;
+  height: 11px;
+  position: absolute;
+  bottom: -10px;
+  left: 125px;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .helpdesc h4 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .helpdesc p {
+  line-height: 24px;
+  padding: 0 20px;
+  width: 520px;
+  color: #999;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .xdhelp {
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -80px -60px;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  margin-left: 5px;
+  display: block;
+  cursor: pointer;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .xdhelp:hover {
+  background-position: -80px -75px;
+  width: 14px;
+  height: 14px;
+}
+.fairy-bean .fairy-data .fairyCon .sign-a-balance .xdhelp:hover .helpdesc {
+  display: block;
+}
+.fairy-bean .fairy-data .fairyCon .convert {
+  margin-top: 25px;
+}
+.fairy-bean .fairy-data .fairyCon .convert .beans,
+.fairy-bean .fairy-data .fairyCon .convert .coin {
+  width: 280px;
+  display: block;
+}
+.fairy-bean .fairy-data .fairyCon .convert .beans i,
+.fairy-bean .fairy-data .fairyCon .convert .coin i {
+  color: #858585;
+}
+.fairy-bean .fairy-data .fairyCon .convert .beans input,
+.fairy-bean .fairy-data .fairyCon .convert .coin input {
+  width: 138px;
+  height: 30px;
+  line-height: 32px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding-left: 10px;
+  color: #000;
+  border: 1px solid #c8c8c8;
+  margin-left: 10px;
+}
+.fairy-bean .fairy-data .fairyCon .convert .beans {
+  float: left;
+}
+.fairy-bean .fairy-data .fairyCon .convert .coin {
+  float: right;
+}
+.fairy-bean .fairy-data .fairyCon .convert .coin input {
+  background-color: #fafafa;
+}
+.fairy-bean .fairy-data .fairyCon .fairybtn {
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+}
+.fairy-bean .fairy-data .fairyCon .fairybtn a {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #f80;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+}
+.fairy-bean .fairy-data .fairyCon .fairybtn span {
+  width: ;
+  cursor: pointer;
+  color: #f80;
+  font-size: ;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.fairy-bean .fairyData .fairy-1 {
+  margin-left: 70px;
+}
+.fairy-bean .fairyData .fairy-2 {
+  margin-left: 102px;
+}
+.fairy-bean .fairyData .fairy-3 {
+  margin-left: 100px;
+}
+.fairy-bean .fairyData .fairy-4 {
+  margin-left: 105px;
+}
+.fairy-bean .fairyData .fairy-5 {
+  margin-left: 8px;
+}
+.fairy-bean .fairyData dl {
+  height: 36px;
+  background-color: #f1eeee;
+}
+.fairy-bean .fairyData dl dd {
+  width: 100px;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+.fairy-bean .fairyData .fairyList {
+  height: 160px;
+  overflow-y: auto;
+}
+.fairy-bean .fairyData .fairyList ul {
+  width: 730px;
+  margin-left: 60px;
+}
+.fairy-bean .fairyData .fairyList ul li {
+  width: 730px;
+  border-bottom: 1px solid #eee;
+  height: 54px;
+}
+.fairy-bean .fairyData .fairyList ul li span {
+  display: block;
+  float: left;
+  width: 100px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+}
+.fairy-bean .fairyData .fairyList .nodata {
+  text-align: center;
+  padding-top: 72px;
+}
+.fairy-bean .fairyData .fairyList .nodata i {
+  display: inline-block;
+  width: 43px;
+  height: 38px;
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -30px -60px;
+  position: relative;
+  margin-right: 5px;
+  top: 15px;
+}
+.setPass {
+  width: 500px;
+  padding-top: 50px;
+  height: 300px;
+  user-select: none;
+  background-color: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  position: absolute;
+  top: 45%;
+  margin-top: -130px;
+  left: 50%;
+  margin-left: -250px;
+  z-index: 1020;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.setPass i.setpass-colse {
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -160px -140px;
+  cursor: pointer;
+}
+.setPass h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+.setPass p {
+  width: 360px;
+}
+.setPass p .span-left {
+  width: 60px;
+  font-size: 14px;
+  color: #333;
+}
+.setPass p span,
+.setPass p i,
+.setPass p a {
+  display: inline-block;
+  position: relative;
+}
+.setPass p input {
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding-left: 10px;
+  border: 1px solid #c8c8c8;
+}
+.setPass p.mobile {
+  margin-left: 90px;
+}
+.setPass p.mobile input,
+.setPass p.changePass input {
+  width: 240px;
+}
+.setPass p.mobile i.reveal,
+.setPass p.changePass i.reveal,
+.setPass p.mobile i.conceal,
+.setPass p.changePass i.conceal {
+  position: absolute;
+  right: 10px;
+  background: url(../../images/common/newicon.png?v=26);
+  cursor: pointer;
+}
+.setPass p.mobile i.reveal,
+.setPass p.changePass i.reveal {
+  width: 15px;
+  height: 7px;
+  top: 12px;
+  background-position: -175px -30px;
+}
+.setPass p.mobile i.conceal,
+.setPass p.changePass i.conceal {
+  width: 16px;
+  height: 11px;
+  top: 10px;
+  background-position: -175px -40px;
+}
+.setPass p.enterPass {
+  margin-left: 96px;
+  margin-top: 50px;
+}
+.setPass p.enterPass input {
+  width: 290px;
+}
+.setPass p.yzm {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.setPass p.yzm input {
+  width: 130px;
+}
+.setPass p.yzm a {
+  height: 30px;
+  border: 1px solid #f80;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 14px;
+  color: #f80;
+  margin-left: 5px;
+}
+.setPass p.yzm i {
+  color: #f80;
+  margin-left: 5px;
+}
+.setPass p.changePass {
+  margin-top: 55px;
+  margin-left: 120px;
+}
+.setPass p.tip {
+  margin-left: 121px;
+}
+.setPass p.tipyzm {
+  margin-left: 155px;
+}
+.setPass p.tip,
+.setPass p.tipyzm {
+  font-size: 12px;
+  color: #f12d2d;
+  margin-top: 7px;
+  height: 20px;
+}
+.setPass p.tip i,
+.setPass p.tipyzm i {
+  width: 12px;
+  height: 12px;
+  background: url(../../images/common/newicon.png?v=26);
+  background-position: -130px -40px;
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+.setPass p.pwdWorng {
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 97px;
+  margin-bottom: 30px;
+  color: #f12d2d;
+}
+.setPass p.pwdWorng a {
+  color: #f12d2d;
+  text-decoration: underline;
+}
+.setPass p.getCoin {
+  color: #f80;
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 3px;
+  width: 100%;
+}
+.setPass p.getCoin span {
+  font-size: 22px;
+  word-spacing: 3px;
+}
+.setPass p.passSubmit {
+  margin-top: 40px;
+}
+.setPass p.passComplete {
+  margin-top: 25px;
+}
+.setPass p.passSubmit,
+.setPass p.passComplete {
+  text-align: center;
+  width: 100%;
+}
+.setPass p.passSubmit a,
+.setPass p.passComplete a {
+  background-color: #f80;
+  width: 130px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+}
+.setPass .tipgrey {
+  color: #666 !important;
+}
+.setsuccess {
+  height: 200px!important;
+}
+.subnetMask {
+  width: 100%;
+  height: 100%;
+  background: url(../../images/common/black_50.png);
+  background-repeat: repeat;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1010;
+}
+/******一账通升级*******/
+.upgradeNew {
+  width: 550px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -275px;
+  z-index: 1020;
+}
+.upgradeNew .sjpic {
+  width: 115px;
+  height: 181px;
+  background-image: url(../../images/common/sjbg.png?v=1);
+  margin-left: 217px;
+  position: relative;
+  top: -60px;
+  display: block;
+}
+.upgradeNew .upgrade-close {
+  width: 14px;
+  height: 14px;
+  background-image: url(../../images/common/newicon.png?v=26);
+  background-position: 0px -165px;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.upgradeNew .upgradeMain {
+  width: 450px;
+  margin-left: 50px;
+  margin-top: -50px;
+}
+.upgradeNew .upgradeMain p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.upgradeNew .upgradeMain p.p1 {
+  color: #f90;
+  font-size: 20px;
+}
+.upgradeNew .upgradeMain p.p2 {
+  font-size: 16px;
+  color: #333;
+  text-align: left!important;
+  line-height: 24px;
+}
+.upgradeNew .upgradeMain p.p2 b {
+  color: #f90;
+}
+.upgradeNew .upgradeMain p.p4 {
+  text-align: center;
+  color: #333;
+  margin-top: 38px;
+}
+.upgradeNew .upgradeMain p.p3,
+.upgradeNew .upgradeMain p.p5 {
+  text-align: center;
+}
+.upgradeNew .upgradeMain p.p3 span,
+.upgradeNew .upgradeMain p.p5 span {
+  display: inline-block;
+  width: 100px;
+}
+.upgradeNew .upgradeMain p.p3 span i,
+.upgradeNew .upgradeMain p.p5 span i {
+  width: 98px;
+  height: 98px;
+  margin-bottom: 5px;
+}
+.upgradeNew .upgradeMain p.p3 span i img,
+.upgradeNew .upgradeMain p.p5 span i img {
+  width: 98px;
+  height: 98px;
+}
+.upgradeNew .upgradeMain p.p3 span i,
+.upgradeNew .upgradeMain p.p5 span i,
+.upgradeNew .upgradeMain p.p3 span em,
+.upgradeNew .upgradeMain p.p5 span em {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+.upgradeNew .upgradeMain p.btn a {
+  height: 50px;
+  line-height: 50px;
+  width: 260px;
+  text-align: center;
+  background-color: #ff9900;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.upgradeNew .upgradeMain p.p5 {
+  margin-top: 30px!important;
+  margin-bottom: 30px!important;
+}

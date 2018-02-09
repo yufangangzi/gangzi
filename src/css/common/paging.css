@@ -1,0 +1,185 @@
+.text-words {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.wrap {
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.s-1 {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.s-2 {
+  width: 24px;
+  margin: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #999999;
+  color: #333333;
+  text-align: center;
+}
+.s-3 {
+  text-decoration: none;
+  color: #333333;
+}
+.s-4 {
+  background: #ff8900;
+  border: 1px solid #ff8900;
+  color: #fff;
+}
+.s-5 {
+  border: 1px solid #d7d7d7;
+  background: #ff8900;
+  color: #333333;
+}
+.paging {
+  text-align: center;
+  margin-top: 20px;
+}
+.paging .prev_btn,
+.paging .next_btn {
+  width: 72px;
+}
+.paging a {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 24px;
+  margin: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #999999;
+  color: #333333;
+  text-align: center;
+}
+.paging a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+.paging a a:visited,
+.paging a a:active {
+  background: #ff8900;
+  border: 1px solid #ff8900;
+  color: #fff;
+}
+.paging a.selected {
+  background: #ff8900;
+  border: 1px solid #ff8900;
+  color: #fff;
+}
+.paging .disabled {
+  border: 1px solid #d7d7d7;
+  background: #ff8900;
+  color: #333333;
+}
+.paging .curr {
+  background: #ff8900;
+  border: 1px solid #ff8900;
+  color: #fff;
+}
+.paging .page_input {
+  width: 40px;
+  height: 22px;
+  line-height: 22px;
+  background: #efefef;
+  border: 1px solid #999999;
+  text-align: center;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+.pagination {
+  display: block;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.pagination:after {
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.pagination li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 24px;
+  margin: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #999999;
+  color: #333333;
+  text-align: center;
+}
+.pagination li a {
+  text-decoration: none;
+  color: #333333;
+}
+.pagination li.disabled,
+.pagination li.next,
+.pagination li.prev {
+  width: 72px;
+}
+.pagination .disabled {
+  border: 1px solid #d7d7d7;
+  background: #ff8900;
+  color: #333333;
+}
+.pagination .active {
+  background: #ff8900;
+  border: 1px solid #ff8900;
+  color: #fff;
+  text-decoration: none;
+  color: #333333;
+}
+.pagination .active a {
+  color: #fff;
+}
+.pagination_m {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 30px;
+  position: relative;
+}
+.go_btn {
+  background: url(/images/room/btngo.jpg);
+  width: 40px;
+  height: 26px;
+  border: 0px;
+  position: relative;
+  top: -2px;
+}

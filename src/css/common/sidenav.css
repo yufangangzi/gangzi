@@ -1,0 +1,948 @@
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.simplesidenav-nav {
+  font: 12px/1.5 'Microsoft YaHei', tahoma, '\005b8b\004f53', sans-serif;
+  top: 40px;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background: #222 url(http://r.plures.net/pt/images/sidenav-bg.png) repeat;
+  border-right: 1px solid #323232;
+  position: absolute;
+  z-index: 900;
+}
+.simplesidenav-nav:hover {
+  text-decoration: none;
+}
+.simplesidenav-nav-con-tab-icon,
+.simplesidenav-nav-con-link-icon,
+.simplesidenav-nav-con-tab-icon-feed,
+.simplesidenav-nav-items-icon,
+.simplesidenav-nav-links-live,
+.simplesidenav-nav-links-type,
+.simplesidenav-nav-links-feed,
+.simplesidenav-nav-links-show,
+.simplesidenav-nav-con-myloves-pop,
+.simplesidenav-nav-con-myloves-icon,
+.simplesidenav-nav-item-icon,
+.simplesidenav-nav-links-rank,
+.simplesidenav-nav-links-guild,
+.simplesidenav-nav-item .hot {
+  background: url(../../images/common/simplenav-05.png?v=1) no-repeat;
+}
+.simplesidenav-nav-items-tit.special h2 a {
+  display: block;
+  color: #b6b6b6;
+}
+.simplesidenav-nav-items-tit a {
+  color: #6c6c6c;
+  display: inline;
+}
+.simplesidenav-nav-items-tit a:hover {
+  color: #ff5a00;
+}
+.simplesidenav-nav-items-open .simplesidenav-nav-items-tit a {
+  display: block;
+}
+.simplesidenav-nav-items-open h2 a {
+  display: block;
+  color: #666;
+}
+.simplesidenav-nav-items-open h2 a:hover {
+  color: #ff5a00;
+}
+.simplesidenav-nav-close {
+  left: 0;
+  width: 60px;
+}
+.simplesidenav-nav-close .simplesidenav-nav-small {
+  display: block;
+}
+.simplesidenav-nav-close .simplesidenav-nav-btn-arrow {
+  background: url(http://r.plures.net/lg/images/nav-arrow-open-2.png) no-repeat;
+}
+.simplesidenav-nav-close .simplesidenav-nav-normal {
+  display: none;
+}
+.simplesidenav-nav-small {
+  width: 60px;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con {
+  display: block;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  display: block;
+  position: relative;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-show {
+  height: 19px;
+  background-position: -103px -88px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-games {
+  height: 19px;
+  background-position: -102px -3px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-music {
+  background-position: -103px -88px;
+  background-position: -101px -344px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-outdoor {
+  height: 19px;
+  background-position: -103px -173px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-dialect {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -258px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-play {
+  background-position: -102px -435px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-feedback {
+  position: absolute;
+  left: 0;
+  bottom: 97px;
+  width: 46px;
+  z-index: 0;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-feedback {
+  background-position: -203px -438px;
+  width: 22px;
+  height: 24px;
+  top: 1px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-help {
+  position: absolute;
+  left: left;
+  bottom: 7px;
+  width: 46px;
+  z-index: 0;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-help {
+  background-position: -203px -484px;
+  height: 24px;
+  top: 1px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab {
+  height: auto;
+  padding: 20px 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  background: #222 url(http://r.plures.net/pt/images/sidenav-bg.png) repeat;
+  display: block;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover {
+  color: #ff5a00;
+  background: #1a1a1a;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-show {
+  background-position: -149px -88px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-games {
+  background-position: -148px -3px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-music {
+  background-position: -147px -344px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-outdoor {
+  background-position: -149px -173px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-dialect {
+  background-position: -47px -258px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-play {
+  background-position: -148px -435px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-feedback {
+  background-position: -251px -438px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-help {
+  background-position: -251px -484px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-hot {
+  background-position: -48px -78px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-ranking {
+  width: 26px;
+  background-position: -147px -478px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover .simplesidenav-nav-con-tab-icon-guild { 
+  background-position: -40px -395px;
+}
+.simplesidenav-nav-con {
+  display: none;
+  overflow: hidden;
+}
+.simplesidenav-nav-con-tab {
+  padding-top: 1px;
+  height: 20px;
+  margin-bottom: 23px;
+  font-size: 14px;
+  color: #999999;
+  display: block;
+}
+.simplesidenav-nav-con-line {
+  border-top: 1px solid #323232;
+  border-bottom: 1px solid #1a1a1a;
+  width: 100%;
+  height: 0;
+  position: relative;
+  z-index: 100;
+  overflow: hidden;
+}
+.simplesidenav-nav-con-tab-icon {
+  position: relative;
+  top: -1px;
+}
+.simplesidenav-nav-con-tab-icon-live {
+  width: 25px;
+  height: 19px;
+  background-position: 0 -76px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.simplesidenav-nav-btn {
+  top: 50%;
+  right: -11px;
+  width: 10px;
+  height: 139px;
+  margin-top: -70px;
+  display: block;
+  position: absolute;
+  background: url(http://r.plures.net/lg/images/nav-arrow-3.png);
+  border-left: 1px solid #323232;
+}
+.simplesidenav-nav-btn:hover {
+  background: url(http://r.plures.net/lg/images/nav-arrow-3-hover.png);
+}
+.simplesidenav-nav-btn-arrow {
+  width: 4px;
+  height: 8px;
+  left: 3px;
+  top: 50%;
+  position: absolute;
+  display: block;
+  margin-top: -4px;
+  background: url(http://r.plures.net/lg/images/nav-arrow-close-2.png) no-repeat;
+}
+.simplesidenav-nav-normal {
+  width: 250px;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.simplesidenav-nav-tabs {
+  top: 300px;
+  left: 14px;
+  right: 14px;
+  position: absolute;
+  z-index: 200;
+}
+.simplesidenav-nav-tab {
+  float: left;
+  width: 110px;
+  height: 32px;
+  line-height:32px;
+  font-size: 16px;
+  color: #aaa;
+  text-align: center;
+  display: block;
+  position: relative;
+  background: #222 url(http://r.plures.net/pt/images/simplenav-tabs.png) no-repeat 0 0;
+  border-bottom: 2px solid #ff5a00;
+}
+.simplesidenav-nav-tab-sel {
+  color: #fff;
+  background-position: -111px 0;
+}
+.simplesidenav-nav-tab-sel .simplesidenav-nav-tab-line {
+  display: block;
+}
+.simplesidenav-nav-tab-line {
+  bottom: 0 -1px;
+  left: 0;
+  width: 120px;
+  height: 2px;
+  background: #ff5a00;
+  display: none;
+  position: absolute;
+}
+.simplesidenav-nav-cons {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.simplesidenav-nav-cons-scroll-container {
+  width: 250px;
+  padding-top: 330px;
+  padding-bottom: 130px;
+}
+.simplesidenav-nav-con-sel {
+  display: block;
+  position: relative;
+}
+.simplesidenav-nav-con-myloves,
+.simplesidenav-nav-con-populars {
+  margin-top: 20px;
+  padding: 0 14px;
+  position: relative;
+}
+.simplesidenav-nav-con-myloves {
+  overflow: hidden;
+  height: 82px;
+}
+.simplesidenav-nav-con-myloves-title,
+.simplesidenav-nav-con-populars-title {
+  font-size: 16px;
+  color: #666666;
+  font-weight: normal;
+  line-height: 20px;
+  margin-top: 0;
+}
+.simplesidenav-nav-pop {
+  width: 62px;
+  height: 27px;
+  line-height: 27px;
+  padding: 0 4px;
+  text-align: center;
+  color: #ccc;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  display: block;
+  float: left;
+  position: relative;
+  background: #333333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.simplesidenav-nav-pop:hover {
+  color: #fff;
+  background: #ff5a00;
+}
+.simplesidenav-nav-pop:hover .tag-left {
+  background: url(http://r.plures.net/pt/images/tag-left-hover-1.png) no-repeat;
+}
+.simplesidenav-nav-pop:hover .tag-right {
+  background: url(http://r.plures.net/pt/images/tag-right-hover-1.png) no-repeat;
+}
+.simplesidenav-nav-pop .tag-left,
+.simplesidenav-nav-pop .tag-right {
+  width: 8px;
+  height: 22px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0 -1px;
+}
+.simplesidenav-nav-pop .tag-left {
+  background: url(http://r.plures.net/pt/images/tag-left-1.png) no-repeat;
+}
+.simplesidenav-nav-pop .tag-right {
+  background: url(http://r.plures.net/pt/images/tag-right-1.png) no-repeat;
+}
+.simplesidenav-nav-pop.selected {
+  color: #fff;
+  background: #ff5a00;
+}
+.simplesidenav-nav-pop.selected .tag-left {
+  background: url(http://r.plures.net/pt/images/tag-left-1.png) no-repeat;
+}
+.simplesidenav-nav-pop.selected .tag-right {
+  background: url(http://r.plures.net/pt/images/tag-right-1.png) no-repeat;
+}
+.simplesidenav-nav-pops {
+  width: 109%;
+  margin-top: 12px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 1px;
+}
+.simplesidenav-nav-pops li {
+  display: inline;
+}
+.simplesidenav-nav-items-open .simplesidenav-nav-items-tit {
+  color: #ff5a00;
+}
+.simplesidenav-nav-items {
+  margin-top: 14px;
+  padding: 0 14px;
+  height: 24px;
+  overflow: hidden;
+  position: relative;
+  clear: both;
+}
+.simplesidenav-nav-items-tit {
+  color: #b6b6b6;
+  height: 24px;
+  line-height: 24px;
+}
+.simplesidenav-nav-items-tit h2 {
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+  margin-right: 10px;
+  float: left;
+}
+.simplesidenav-nav-items-tit .icon {
+  width: 13px;
+  height: 10px;
+  margin-right: 10px;
+  display: block;
+  float: left;
+}
+.simplesidenav-nav-items-tit.special h2 {
+  width: auto;
+  display: block;
+  float: none;
+}
+.simplesidenav-nav-items-link {
+  float: left;
+  width: 135px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: keep-all;
+  overflow: hidden;
+  color: #6c6c6c;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.items-table-wrap {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.simplesidenav-nav-items-table {
+  width: 105%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 14px;
+}
+.simplesidenav-nav-item {
+  width: 62px;
+  height: 27px;
+  padding: 0 4px;
+  line-height: 27px;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+  background: #333333;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  float: left;
+}
+.simplesidenav-nav-item .hot {
+  background-position: -216px -178px;
+  width: 10px;
+  height: 0;
+  margin-right: 2px;
+  font-size: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  *top: 0;
+}
+.simplesidenav-nav-item:hover {
+  background: #ff5a00;
+  border-color: #ff5a00;
+  color: #fff;
+  position: relative;
+}
+.simplesidenav-nav-item:hover .hot {
+  background-position: -243px -178px;
+}
+.simplesidenav-nav-item.selected {
+  background: #ff5a00;
+  border-color: #ff5a00;
+  color: #fff;
+  position: relative;
+}
+.simplesidenav-nav-item.selected .hot {
+  background-position: -243px -178px;
+}
+.simplesidenav-nav-item-all {
+  color: #ff5a00;
+}
+.simplesidenav-nav-items-sub {
+  border: 1px solid #333;
+  padding: 3px 10px;
+  height: 23px;
+  line-height: 23px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: keep-all;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.simplesidenav-nav-items-sub a {
+  color: #6c6c6c;
+  display: block;
+  height: 23px;
+  line-height: 23px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: keep-all;
+  overflow: hidden;
+}
+.simplesidenav-nav-items-sub a:hover {
+  color: #ff5a00;
+}
+.simplesidenav-nav-items-sub img {
+  float: left;
+  margin-right: 12px;
+}
+.simplesidenav-nav-con-link {
+  width: 213px;
+  height: 46px;
+  margin: 0 12px;
+  background: #ff5a00;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  line-height: 45px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  left: 6px;
+  bottom: 49px;
+  text-indent: 2px;
+}
+.simplesidenav-nav-con-link:hover {
+  background: #ff4200;
+  color: #fff;
+}
+.simplesidenav-nav-con-link:hover .simplesidenav-nav-con-link-icon-live {
+  background-position: -9px -204px;
+}
+.simplesidenav-recruit {
+  z-index: 200;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 109px;
+  width: 100%;
+  background: #222 url(http://r.plures.net/pt/images/sidenav-bg.png) repeat;
+}
+.simplesidenav-nav-con-link-icon-live {
+  top: 0;
+  width: 22px;
+  height: 18px;
+  margin-right: 9px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  left: -1px;
+  *top: 2px;
+  background-position: -9px -204px;
+}
+.simplesidenav-nav-help-center {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  position: absolute;
+  bottom: 1px;
+}
+.simplesidenav-nav-help-center a {
+  margin: 0 12px;
+  color: #666666;
+}
+.simplesidenav-nav-help-center a:hover {
+  color: #f60;
+  text-decoration: underline;
+}
+.simplesidenav-nav-con-feeds {
+  position: relative;
+}
+.simplesidenav-nav-con-text {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.simplesidenav-nav-con-feed {
+  width: 100%;
+  height: 85px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.simplesidenav-nav-con-feed a {
+  height: 85px;
+  display: block;
+  overflow: overflow;
+}
+.simplesidenav-nav-con-feed a:hover {
+  background: #333333;
+}
+.simplesidenav-nav-con-feed a:hover .simplesidenav-nav-con-feed-btn {
+  display: block;
+}
+.simplesidenav-nav-con-feed-thumb {
+  top: 11px;
+  left: 13px;
+  width: 65px;
+  height: 65px;
+  background: #ddd;
+  display: block;
+  position: absolute;
+}
+.simplesidenav-nav-con-feed-inner {
+  padding: 10px 14px 10px 87px;
+  height: 65px;
+  position: relative;
+  overflow: hidden;
+}
+.simplesidenav-nav-con-feed-name {
+  width: 100%;
+  font-size: 14px;
+  color: #aaa;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: keep-all;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+}
+.simplesidenav-nav-con-feed-live {
+  margin-right: 5px;
+  color: #ff5a00;
+}
+.simplesidenav-nav-con-feed-line {
+  height: 36px;
+  margin-top: 5px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #7e7e7e;
+  overflow: hidden;
+}
+.simplesidenav-nav-con-feed-btn {
+  top: 10px;
+  right: 14px;
+  width: 50px;
+  line-height: 14px;
+  height: 17px;
+  background: #494848;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+.simplesidenav-nav .scroll {
+  overflow-x: overflow;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  padding-right: 40px;
+  position: relative;
+}
+.simplesidenav-nav .scroll-bar {
+  z-index: 10;
+  position: absolute;
+  width: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+.simplesidenav-nav .scroll-thumb {
+  position: absolute;
+  right: 2px;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  min-height: 10px;
+  width: 6px;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  background: #000;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.25);
+}
+.simplesidenav-nav-cons-scroll-thumb {
+  width: 5px;
+  background: #555555;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.simplesidenav-nav-items-icon {
+  background-position: -55px -63px;
+  width: 15px;
+  height: 8px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  top: 9px;
+}
+.simplesidenav-nav-items-open {
+  height: auto;
+}
+.simplesidenav-nav-items-open .simplesidenav-nav-items-icon {
+  background-position: -33px -63px;
+}
+.simplesidenav-nav-items-open .simplesidenav-nav-items-link {
+  display: none;
+}
+.scroll-bar-visible {
+  display: block;
+}
+.scroll-bar-visible .scroll-thumb {
+  opacity: 0.7;
+}
+.simplesidenav-nav-links {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  height: 300px;
+  background: #222 url(http://r.plures.net/pt/images/sidenav-bg.png) repeat;
+}
+.simplesidenav-nav-link {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  color: #ccc;
+}
+.simplesidenav-nav-link i {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 14px;
+}
+.simplesidenav-nav-link .simplesidenav-nav-links-live {
+  background-position: -204px -258px;
+  margin-top: 13px;
+}
+.simplesidenav-nav-link:hover {
+  color: #ff5a00;
+  background: #1a1a1a;
+}
+.simplesidenav-nav-link:hover .simplesidenav-nav-links-live {
+  background-position: -253px -258px;
+}
+.simplesidenav-nav-link:hover .simplesidenav-nav-links-type {
+  background-position: -253px -314px;
+}
+.simplesidenav-nav-link:hover .simplesidenav-nav-links-feed {
+  background-position: -253px -372px;
+}
+.simplesidenav-nav-links-type {
+  background-position: -204px -314px;
+}
+.simplesidenav-nav-links-feed {
+  background-position: -204px -372px;
+}
+.simplesidenav-nav-con-myloves-icon {
+  width: 20px;
+  height: 18px;
+  display: block;
+  float: left;
+  margin-right: 12px;
+  margin-top: 3px;
+}
+.simplesidenav-nav-con-myloves .simplesidenav-nav-con-myloves-icon {
+  background-position: -210px -8px;
+}
+.simplesidenav-nav-con-populars .simplesidenav-nav-con-myloves-icon {
+  background-position: -210px -91px;
+  width: 18px;
+  margin-right: 13px;
+}
+.simplesidenav-nav-item-icon {
+  float: left;
+  width: 20px;
+  height: 20px;
+  display: none;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.icon-1 {
+  background-position: -8px -6px;
+}
+.icon-2 {
+  background-position: -9px -443px;
+}
+.icon-3 {
+  background-position: -9px -175px;
+}
+.icon-4 {
+  background-position: -9px -350px;
+}
+.icon-36 {
+  background-position: -9px -443px;
+  margin-top: 4px;
+}
+.simplesidenav-nav-items-tit a:hover .icon-1 {
+  background-position: -42px -6px;
+}
+.simplesidenav-nav-items-tit a:hover .icon-2 {
+  background-position: -43px -443px;
+}
+.simplesidenav-nav-items-tit a:hover .icon-3 {
+  background-position: -43px -175px;
+}
+.simplesidenav-nav-items-tit a:hover .icon-4 {
+  background-position: -43px -350px;
+}
+.simplesidenav-nav-items-tit a:hover .icon-36 {
+  background-position: -43px -443px;
+}
+.simplesidenav-nav-links-show {
+  background-position: -7px -482px;
+}
+.simplesidenav-nav-show:hover .simplesidenav-nav-links-show {
+  background-position: -41px -482px;
+}
+.simplesidenav-nav-links-rank {
+ width: 26px !important;
+ height: 26px !important;
+ margin-top:8px !important;
+ background-position: -100px -478px;
+}
+.simplesidenav-nav-rank:hover .simplesidenav-nav-links-rank {
+  width: 26px!important;
+  height: 26px !important;
+  background-position: -147px -478px;
+}
+.simplesidenav-nav-links-guild {
+  width: 22px!important;
+  margin-top:12px !important;
+  background-position: 0 -395px;
+}
+.simplesidenav-nav-guild:hover .simplesidenav-nav-links-guild {
+  width: 22px!important;
+  background-position: -40px -395px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-hot {
+  height: 30px;
+  background-position: -5px -78px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-ranking {
+  width: 26px;
+  background-position: -100px -478px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab-icon-guild{
+  background-position: 0 -395px;
+}
+.qrcode {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.qrcode .mobile {
+  background: url(../../images/common/base.png) no-repeat;
+  background-position: -520px -45px;
+  width: 8px;
+  height: 13px;
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+.qrcode .qrcodes {
+  width: 161px;
+  height: 192px;
+  border: 1px solid #eee;
+  position: absolute;
+  top: 60px;
+  left: -40px;
+  display: none;
+}
+.qrcode .qrcodes i {
+  background: url(../../images/common/base.png) no-repeat;
+  background-position: -505px -45px;
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
+  left: 80px;
+}
+.qrcode .qrcodes img {
+  width: 161px;
+  height: 192px;
+}
+.qrcode:hover .qrcodes {
+  display: block;
+}

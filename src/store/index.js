@@ -9,11 +9,15 @@ const state = {
   totalTime: 0,
   list: [],
   age:45,
-  zanNum:0
+  zanNum:0,
+  numZAN:0
 };
 const getters={
   addAge:(state)=>{
       return state.age++
+  },
+  eventZAN (state){
+    state.numZAN++
   }
 };
 

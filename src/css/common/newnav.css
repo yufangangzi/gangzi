@@ -1,0 +1,299 @@
+.centers {
+  text-align: center;
+}
+.c-lefts {
+  text-align: left;
+}
+.c-rights {
+  text-align: right;
+}
+.box-shadow {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: normal;
+  word-break: keep-all;
+}
+.middle {
+  vertical-align: middle;
+}
+.repeat {
+  background-repeat: repeat;
+}
+.noRepeat {
+  background-repeat: no-repeat;
+}
+/******房间图片地址*******/
+.t-img1 {
+  background: #fff url(../../images/common/sidenav-bg.png);
+}
+.t-img2 {
+  background-image: url(../../images/common/simplenav-05.png);
+  background-repeat: no-repeat;
+}
+.t-img3 {
+  background-image: url(../../images/common/nav-arrow-3.png);
+}
+.t-img4 {
+  background: #e0e0e0 url(../../images/common/simplenav-tabs.png) no-repeat;
+}
+.t-img5 {
+  background: url(../../images/common/logo_r-1.png) no-repeat;
+}
+.t-img6 {
+  background: url(../../images/index/index.png?v=1);
+}
+.topnavs {
+  height: 76px;
+  border-bottom: 1 solid #e9e9e9;
+  background-color: #fff;
+}
+html .topbar {
+  height: 76px;
+  background-color: #fff;
+}
+.topbar-inner {
+  height: 76px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.simplesidenav-nav {
+  top: 76px;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab {
+  background: #fff url(../../images/common/sidenav-bg.png);
+  color: #333333;
+}
+.simplesidenav-nav-small .simplesidenav-nav-con-tab:hover {
+  color: #f60;
+  background: #fff;
+}
+.simplesidenav-nav {
+  background: #fff url(../../images/common/sidenav-bg.png);
+  border-right: 1px solid #e4e4e4;
+}
+.simplesidenav-nav-links {
+  background: #fff url(../../images/common/sidenav-bg.png);
+}
+.simplesidenav-recruit {
+  background: #fff url(../../images/common/sidenav-bg.png);
+}
+.simplesidenav-nav-con-line {
+  border-top: 1px solid #e4e4e4 !important;
+  border-bottom: 1px solid #efefef !important;
+}
+.simplesidenav-nav-con-tab-icon,
+.simplesidenav-nav-con-link-icon,
+.simplesidenav-nav-con-tab-icon-feed,
+.simplesidenav-nav-items-icon,
+.simplesidenav-nav-links-live,
+.simplesidenav-nav-links-type,
+.simplesidenav-nav-links-feed,
+.simplesidenav-nav-links-show,
+.simplesidenav-nav-con-myloves-pop,
+.simplesidenav-nav-con-myloves-icon,
+.simplesidenav-nav-item-icon,
+.simplesidenav-nav-item .hot {
+  background-image: url(../../images/common/simplenav-05.png);
+  background-repeat: no-repeat;
+}
+.topbar-logo {
+  width: 191px;
+  height: 65px;
+}
+.topbar-background {
+  background-color: #fff;
+}
+.ml78 {
+  margin-left: 78px;
+}
+.topbar-nav {
+  font-size: 18px;
+  width: 55px;
+  text-align: center;
+  height: 56px;
+}
+.topbar-nav a {
+  display: block;
+  height: 76px;
+  line-height: 76px;
+  margin-top: -10px;
+}
+.topbar-nav a:hover {
+  color: #ff6955;
+  height: 74px;
+  border-bottom: 2px solid #ff6955;
+}
+.topbar-divider {
+  background: #a9a9a9;
+  margin: 32px 10px 22px;
+}
+.qrcodes {
+  top: 62px;
+  left: -33px;
+}
+.simplesidenav-nav-btn {
+  background-image: url(../../images/common/nav-arrow-3.png);
+  height: 125px;
+  border-left: 1px solid #ccc;
+}
+.simplesidenav-nav-btn:hover {
+  background-image: url(../../images/common/nav-arrow-3.png);
+  height: 125px;
+  border-left: 1px solid #ccc;
+}
+.simplesidenav-nav-link {
+  color: #000;
+}
+.simplesidenav-nav-link:hover {
+  background: #fff;
+  color: #f60;
+}
+.simplesidenav-nav-tab {
+  background: #e0e0e0 url(../../images/common/simplenav-tabs.png) no-repeat;
+  border-bottom: 2px solid #f80;
+  color: #666666;
+}
+.simplesidenav-nav-tab .simplesidenav-nav-info {
+  background-position: 0 0;
+}
+.simplesidenav-nav-tab-sel {
+  color: #fff;
+  background-position: -111px 0;
+}
+.simplesidenav-nav-item {
+  background-color: #f6f6f6;
+  color: #666666;
+}
+.simplesidenav-nav-item:hover {
+  background-color: #f80;
+}
+.simplesidenav-nav-pop {
+  background-color: #f6f6f6;
+  color: #666666;
+}
+.simplesidenav-nav-pop:hover {
+  background-color: #f80;
+}
+.simplesidenav-nav-con-link {
+  background: #f80;
+}
+.simplesidenav-nav-con-link:hover {
+  background: #f60;
+}
+.has_login {
+  top: 15px;
+}
+.topbar-menu-app-icons {
+  background: url(../../images/common/logo_r-1.png) no-repeat;
+  margin-top: 10px;
+}
+.no_login {
+  color: #666666;
+  font-size: 18px;
+  position: relative;
+  top: 15px;
+}
+.haslogin_ul span {
+  font-size: 14px;
+}
+.n-i-search {
+  width: 180px;
+  height: 32px;
+  border: 1px solid #e0e0e0;
+  float: left;
+  position: relative;
+  margin-top: 12px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.n-i-search input {
+  height: 32px;
+  width: 130px;
+  line-height: 32px;
+  border: 0;
+  margin-left: 10px;
+  color: #999999;
+  font-size: 14px;
+}
+.n-i-search .btn-search {
+  background-image: url(../../images/common/simplenav-05.png);
+  background-repeat: no-repeat;
+  background-position: -270px -175px;
+  width: 18px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 9px;
+}
+.topbar-menu-alias {
+  position: relative;
+  top: -1px;
+}
+.topbar-menu-arrow {
+  position: relative;
+  top: -2px;
+}
+.no_login {
+  margin-left: 30px;
+}
+.usercard-bc,
+.usercard-yc {
+  position: relative;
+  top: -6px;
+  margin-left: 4px;
+}
+.topbar-logo-image {
+  margin-top: 10px;
+}
+.n-login,
+.n-register {
+  height: 26px;
+  line-height: 26px;
+  width: 64px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.n-login {
+  background: #ff6955;
+  color: #fff;
+}
+.n-register {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  margin-left: -15px;
+}
+.n-register span {
+  color: #999999;
+}
+.color_r {
+  color: #ff6955;
+}
+.qrcode .mobile {
+  background: url(../../images/index/index.png?v=1);
+  background-position: -160px -125px;
+  width: 8px;
+  height: 13px;
+  *top: -5px;
+}
+.ml56 {
+  margin-left: 56px;
+}
+.update-name {
+  float: left;
+  margin-left: 17px;
+  font-size: 12px;
+}
+.yinshen {
+  float: left;
+  margin-left: 10px;
+  font-size: 12px;
+}

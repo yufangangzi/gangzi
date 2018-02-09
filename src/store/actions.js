@@ -22,6 +22,11 @@ export default {
   },
   addZAN({commit}){
     commit(types.ADD_ZAN)
+  },
+  eventZAN({commit},data){
+    commit('eventZAN',data)
+
   }
+
 
 };

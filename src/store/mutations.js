@@ -1,6 +1,11 @@
 import * as types from './mutation-types'
+import gift from './event-ws'
 
 export default {
+  eventZAN(state,data){
+    state.numZAN++
+    gift.giftEvent(data)
+  },
   changeAge(state){
     state.age++
   },

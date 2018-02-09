@@ -50,6 +50,7 @@
       player() {
         return this.$refs.videoPlayer.player
       }
+
     },
     methods: {
       // listen event

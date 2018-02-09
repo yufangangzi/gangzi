@@ -5,10 +5,13 @@ import store from './store'
 import App from './App'
 import routes from './store/router.config'
 import 'bootstrap/dist/css/bootstrap.css'
-
+import './css/common/livelist.css'
+import './css/common/reset.css'
+import './css/common/publicStyle.css'
+import './css/common/sidenav.css'
 Vue.use(VueRouter)
 Vue.use(VueResource)
-
+console.log(666)
 const router = new VueRouter({
     routes,
     mode:'history'

@@ -14,7 +14,9 @@
         }
      },
      methods:{
-
+        getm(){
+          
+        }
      }
   }
 </script>
